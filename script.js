@@ -15,16 +15,16 @@ if((mesAniversario === "janeiro") || (mesAniversario === "dezembro")){
     console.log(false);
 }
 
-let letraInicial = "D";
-if(letraInicial == "R"){
+let letraInicial = "Denise";
+if(letraInicial.charAt(0) === "R"){
     console.log(true);
 }else{
     console.log(false);
 }
 
 let nome = "Denise";
-let numeroLetras = 6;
-if((numeroLetras >= 6) || nome == "E"){
+let sobrenome = "Bosisio";
+if((sobrenome.length > 6) || (nome.charAt(0) === "E")){
     console.log(true);
 }else{
     console.log(false);
